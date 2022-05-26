@@ -1,0 +1,29 @@
+﻿scen_id,base_id,vac_id,base_name,vac_name,scen_name,n.doses,disc.costs,disc.benefits,p.ve_gbs_disease,p.ve_stillbirth,p.ve_preterm,vac_cov_assumption,coverage_SBA,u.mild_ndi,vac_delivery_cost_mult,c.mod_sev_ndi_as_prop_acute
+1,1,0,Base case,No vaccination,,1,0.03,0.03,0,0,0,0,1,0,1,
+2,2,0,Base case - 0% QALY disc.,No vaccination,,1,0.03,0,0,0,0,0,1,0,1,
+3,3,0,Base case - high CFR with no SBA,No vaccination,,1,0.03,0.03,0,0,0,0,,0,1,
+4,4,0,Base case - high CFR with no SBA + 0% QALY disc.,No vaccination,,1,0.03,0,0,0,0,0,,0,1,
+5,5,0,Base case - with utility loss for mild NDI,No vaccination,,1,0.03,0.03,0,0,0,0,1,,1,
+6,6,0,Base case - 0% QALY disc. -  with utility loss for mild NDI,No vaccination,,1,0.03,0,0,0,0,0,1,,1,
+7,7,0,Base case - no long-term costs,No vaccination,,1,0.03,0.03,0,0,0,0,1,0,1,0
+8,8,0,Base case - 0% QALY disc. -  no long-term costs,No vaccination,,1,0.03,0,0,0,0,0,1,0,1,0
+9,1,1,Base case,"ANC4 cov., 80% eff. iGBS + Stillbirth",Base case,1,0.03,0.03,0.8,0.8,0,4,1,0,1,
+10,2,1,Base case - 0% QALY disc.,"ANC4 cov., 80% eff. iGBS + Stillbirth",Base case,1,0.03,0,0.8,0.8,0,4,1,0,1,
+11,1,2,Base case,"ANC4 cov., 80% eff. iGBS + Stillbirth + Preterm",80% VE preterm,1,0.03,0.03,0.8,0.8,0.8,4,1,0,1,
+12,2,2,Base case - 0% QALY disc.,"ANC4 cov., 80% eff. iGBS + Stillbirth + Preterm",80% VE preterm,1,0.03,0,0.8,0.8,0.8,4,1,0,1,
+13,1,3,Base case,"2-doses, ANC4 cov., 80% eff. iGBS + Stillbirth",2-doses,2,0.03,0.03,0.8,0.8,0,4,1,0,1,
+14,2,3,Base case - 0% QALY disc.,"2-doses, ANC4 cov., 80% eff. iGBS + Stillbirth",2-doses,2,0.03,0,0.8,0.8,0,4,1,0,1,
+15,1,4,Base case,"ANC4 cov., 60% eff. iGBS + Stilllbirth",60% VE,1,0.03,0.03,0.6,0.6,0,4,1,0,1,
+16,2,4,Base case - 0% QALY disc.,"ANC4 cov., 60% eff. iGBS + Stilllbirth",60% VE,1,0.03,0,0.6,0.6,0,4,1,0,1,
+17,1,5,Base case,"ANC4 cov., 90% eff. iGBS + Stillbirth",90% VE,1,0.03,0.03,0.9,0.9,0,4,1,0,1,
+18,2,5,Base case - 0% QALY disc.,"ANC4 cov., 90% eff. iGBS + Stillbirth",90% VE,1,0.03,0,0.9,0.9,0,4,1,0,1,
+19,1,6,Base case,"ANC1 cov., 80% eff. iGBS + Stillbirth",High coverage,1,0.03,0.03,0.8,0.8,0,1,1,0,1,
+20,2,6,Base case - 0% QALY disc.,"ANC1 cov., 80% eff. iGBS + Stillbirth",High coverage,1,0.03,0,0.8,0.8,0,1,1,0,1,
+21,3,1,Base case - high CFR with no SBA,"ANC4 cov., 80% eff. iGBS + Stillbirth",High CFR with no SBA,1,0.03,0.03,0.8,0.8,0,4,,0,1,
+22,4,1,Base case - high CFR with no SBA + 0% QALY disc.,"ANC4 cov., 80% eff. iGBS + Stillbirth",High CFR with no SBA,1,0.03,0,0.8,0.8,0,4,,0,1,
+23,5,1,Base case - with utility loss for mild NDI,"ANC4 cov., 80% eff. iGBS + Stillbirth",With mild NDI,1,0.03,0.03,0.8,0.8,0,4,1,,1,
+24,6,1,Base case - 0% QALY disc. -  with utility loss for mild NDI,"ANC4 cov., 80% eff. iGBS + Stillbirth",With mild NDI,1,0.03,0,0.8,0.8,0,4,1,,1,
+25,7,1,Base case - no long-term costs,"ANC4 cov., 80% eff. iGBS + Stillbirth",No long-term costs,1,0.03,0.03,0.8,0.8,0,4,1,0,1,0
+26,8,1,Base case - 0% QALY disc. -  no long-term costs,"ANC4 cov., 80% eff. iGBS + Stillbirth",No long-term costs,1,0.03,0,0.8,0.8,0,4,1,0,1,0
+27,1,1,Base case,"ANC4 cov., 80% eff. iGBS + Stillbirth",50% higher vac delivery costs,1,0.03,0.03,0.8,0.8,0,4,1,0,1.5,
+28,2,1,Base case - 0% QALY disc.,"ANC4 cov., 80% eff. iGBS + Stillbirth",50% higher vac delivery costs,1,0.03,0,0.8,0.8,0,4,1,0,1.5,

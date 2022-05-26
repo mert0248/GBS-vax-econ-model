@@ -1,0 +1,26 @@
+short_name,full_name,parameter_description,value,low,high,dist_name,dist.1,dist.2,mat_col,sequelae,prematurity,onset,iap_status,region_class,region
+disc.benefits,disc.benefits,discount rate for health benefits,0.03,0,,fixed,,,,,,,,,
+disc.costs,disc.costs,discount rate for costs,0.03,0,,fixed,,,,,,,,,
+p.ve_gbs_disease,p.ve_gbs_disease,vaccine efficacy against gbs invasive disease,0.8,0.7,0.9,fixed,,,,,,,,,
+p.ve_stillbirth,p.ve_stillbirth,vaccine efficacy against gbs stillbirth,0.8,0.7,0.9,fixed,,,,,,,,,
+p.ve_preterm,p.ve_preterm,vaccine efficacy against gbs prematurity,0.8,0.7,0.9,fixed,,,,,,,,,
+n.doses,n.doses,number of doses per course,1,,,fixed,,,,,,,,,
+p.dose2,p.dose2,proportion of 1st dose recipients receiving 2nd dose,0.9,,,fixed,,,,,,,,,
+p.eod_death_no_sba,p.eod_death_no_sba,eod cfr if for cases without skilled birth attendance,0.9,0,0,fixed,,,,,,,,,
+u.preterm,u.preterm,utility decrement for preterm birth vs term birth,0.066,,,beta,15.89259,224.90428,,,,,,,
+u.term,u.term,utility decrement normal term birth,0,,,fixed,,,,,,,,,
+u.men,u.men,utility decrement due to hospitalisation during meningitis,0.0232,,,beta,0.08214888,3.45875112,,,,,,,
+u.sep,u.sep,utility decrement due to hospitalisation during sepsis,0.0079,,,beta,0.06879662,8.63963671,,,,,,,
+u.mild_ndi,u.mild_ndi,utility decrement for mild ndi,0.179,,,beta,14.91251,68.39758,,,,,,,
+u.mod_ndi,u.mod_ndi,utility decrement for moderate ndi,0.298,,,beta,20.6084,48.5473,,,,,,,
+u.sev_ndi,u.sev_ndi,utility decrement for severe ndi,0.558,,,beta,19.50438,15.4497,,,,,,,
+c.vac_price,c.vac_price.Low_income,Price of vaccine in Low income countries,3.5,,,fixed,,,,,,,,wb_income,Low_income
+c.vac_price,c.vac_price.Lower_middle_income,Price of vaccine in Lower middle income countries,3.5,,,fixed,,,,,,,,wb_income,Lower_middle_income
+c.vac_price,c.vac_price.Upper_middle_income,Price of vaccine Upper middle income countries,15,,,fixed,,,,,,,,wb_income,Upper_middle_income
+c.vac_price,c.vac_price.High_income,Price of vaccine in High income countries,50,,,fixed,,,,,,,,wb_income,High_income
+c.mod_sev_ndi_as_prop_acute,c.mod_sev_ndi_as_prop_acute,Annual cost of mod/sev ndi as a proportion of acute costs,0.16,,,uniform,0.04,0.28,,,,,,,
+p.mild_ndi_baseline,p.mild_ndi_baseline,Baseline mild ndi in the population,0.0261,,,fixed,,,,,,,,,
+p.mod_sev_ndi_baseline,p.mod_sev_ndi_baseline,Baseline mod/sev ndi in the population,0.0214,,,fixed,,,,,,,,,
+p.mod_sev_ndi_sev,p.mod_sev_ndi_sev,Proportion of mod-sev ndi that's severe,0.33,,,fixed,,,,,,,,,
+acute_los,acute_los,Acute length of stay in days,29,,,fixed,,,,,,,,,
+vac_delivery_cost_mult,vac_delivery_cost_mult,Vaccine delivery cost multplier for scenario analysis,1,,,fixed,,,,,,,,,

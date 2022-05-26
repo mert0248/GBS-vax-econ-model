@@ -1,0 +1,24 @@
+author,iso3,study_year,sequelae,sample_size,source_of_reported_value,reported_currency,reported_currency_year,reported_average,deflator_reported_year,deflator_2020,average_exchange_rate_2020, average_cost_2020_USD ,wb_region
+Liao,CHN,2017,sepsis,1369,Salman et al review,USD,2017,1533.99,102.949,108.596,1,1618.133037,Upper_middle_income
+Qian,CHN,2008,sepsis,316,Salman et al review,USD,2017,2204.51,102.949,108.596,1,2325.43267,Upper_middle_income
+Atif,DZA,2008,sepsis,83,Salman et al review,USD,2017,2142.6,102.949,108.596,1,2260.126758,Upper_middle_income
+Inigo,ESP,2006,sepsis,404,Salman et al review,USD,2017,22560,102.949,108.596,1,23797.4702,High_income
+Gard,IND,2005,sepsis,,Salman et al review,USD,2017,54.68,102.949,108.596,1,57.67932938,Lower_middle_income
+Tanihara,JPN,2014,sepsis,188,Salman et al review,USD,2017,24518,102.949,108.596,1,25862.87121,High_income
+Lieu,USA,1992,sepsis,2,Salman et al review,USD,2017,64046.96,102.949,108.596,1,67560.08964,High_income
+Angus,USA,2001,sepsis,"192,980",Salman et al review,USD,2017,81763.06,102.949,108.596,1,86247.96029,High_income
+Hartman,USA,2000,sepsis,4932,Salman et al review,USD,2017,90378.97,102.949,108.596,1,95336.47365,High_income
+Hartman,USA,2005,sepsis,8981,Salman et al review,USD,2017,93301.18,102.949,108.596,1,98418.97389,High_income
+Johnson,USA,2013,sepsis,153,Salman et al review,USD,2017,103803.74,102.949,108.596,1,109497.6245,High_income
+Donovan,USA,2013,sepsis,82,Salman et al review,USD,2017,112941.75,102.949,108.596,1,119136.8763,High_income
+Balamuth,USA,2013,sepsis,"41,711",Salman et al review,USD,2017,129632.43,102.949,108.596,1,136743.0802,High_income
+Lieu,USA,1992,meningitis,4,Salman et al review,USD,2017,3874.19,102.949,108.596,1,4086.69863,High_income
+Balada-Llasat,USA,2018,meningitis,3030,Salman et al review,USD,2017,13154.28,102.949,108.596,1,13875.82386,High_income
+Lieu,USA,1992,meningitis,12,Salman et al review,USD,2017,13386.3,102.949,108.596,1,14120.57072,High_income
+Davis,USA,2011,meningitis,108,Salman et al review,USD,2017,33634.9,102.949,108.596,1,35479.85508,High_income
+Trevejo,USA,2003,meningitis,59,Salman et al review,USD,2017,39169,102.949,108.596,1,41317.51376,High_income
+Davis,USA,2011,meningococcal septicemia,61,Salman et al review,USD,2017,56286.15,102.949,108.596,1,59373.58056,High_income
+Anh,VNM,2010,meningitis,521,Salman et al review,USD,2017,221.55,102.949,108.596,1,233.7025498,Lower_middle_income
+Aerts,MOZ,2020,sepsis/meningitis,11,Aerts et al,ID,2019,307.58,142.449,146.011,2.89017341,109.083826,Low_income
+Aerts,ZAF,2020,sepsis/meningitis,19,Aerts et al,ID,2019,684.06,122.546,129.008,2.364066194,304.6155475,Upper_middle_income
+Schroeder,GBR,2009,GBS,138,Schroeder et al initial hospitalisation vs controls,GBP,2003,5208.9,78.499,113.735,0.78,9675.678402,High_income
