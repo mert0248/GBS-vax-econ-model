@@ -356,21 +356,21 @@ ce.countries <- scen_pars[,.(scen_id,base_name,vac_name,scen_name)][ce.countries
 
 print("write output")
 
-saveRDS(base.global,paste0(path.io,"base.global_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(base.global,paste0(path.io,"base.global_",Sys.Date(),".rds"))
 saveRDS(base.regions,paste0(path.io,"base.regions_",Sys.Date(),"_",reg_type,".rds"))
-saveRDS(base.countries,paste0(path.io,"base.countries_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(base.countries,paste0(path.io,"base.countries_",Sys.Date(),".rds"))
 
-saveRDS(scenarios.global,paste0(path.io,"scenarios.global_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(scenarios.global,paste0(path.io,"scenarios.global_",Sys.Date(),".rds"))
 saveRDS(scenarios.regions,paste0(path.io,"scenarios.regions_",Sys.Date(),"_",reg_type,".rds"))
-saveRDS(scenarios.countries,paste0(path.io,"scenarios.countries_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(scenarios.countries,paste0(path.io,"scenarios.countries_",Sys.Date(),".rds"))
 
-saveRDS(icers.global,paste0(path.io,"icers.global_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(icers.global,paste0(path.io,"icers.global_",Sys.Date(),".rds"))
 saveRDS(icers.regions,paste0(path.io,"icers.regions_",Sys.Date(),"_",reg_type,".rds"))
-saveRDS(icers.countries,paste0(path.io,"icers.countries_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(icers.countries,paste0(path.io,"icers.countries_",Sys.Date(),".rds"))
 
-saveRDS(ce.global,paste0(path.io,"prob.CE.global_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(ce.global,paste0(path.io,"prob.CE.global_",Sys.Date(),".rds"))
 saveRDS(ce.regions,paste0(path.io,"prob.CE.regions_",Sys.Date(),"_",reg_type,".rds"))
-saveRDS(ce.countries,paste0(path.io,"prob.CE.countries_",Sys.Date(),"_",reg_type,".rds"))
+saveRDS(ce.countries,paste0(path.io,"prob.CE.countries_",Sys.Date(),".rds"))
 
 # report run-time
 print(paste0("Done: ",Sys.time() - start_time))
