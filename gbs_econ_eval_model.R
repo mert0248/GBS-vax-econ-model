@@ -30,7 +30,8 @@ require("ggsci")
 #################  ***    LOOP OVER REGION GROUPINGS    ***   ##################
 
 start_time <- Sys.time()
-for (reg_type in c("sdg","wb")) { 
+for (reg_type in c("sdg","wb")) {
+    
 
 ########################  ***   GET INPUT DATA   ***   #########################
 
@@ -880,7 +881,7 @@ fig2a <- ggplot(
       ),
     position = position_dodge(width=0.5)
   ) +
-  scale_color_brewer(palette="Set1") +
+  scale_color_viridis_d(end=0.9) +
   facet_grid(.~disc.benefits+with_SB,
              labeller = labeller(
                disc.benefits = disc.lbl,
@@ -939,7 +940,7 @@ fig2b <- ggplot(
     labels = scales::label_number_si()
   ) +
   theme(legend.position="top") +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -990,7 +991,7 @@ fig3 <- ggplot(
     labeller = labeller(norm_scen = norm.lbl) 
   ) +
   scale_x_continuous(trans="log10") +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -1036,7 +1037,7 @@ fig4 <- ggplot(
     ),
     position = position_dodge(width=0.5)
   ) +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="Normative assumptions"
   ) +
   scale_x_continuous(
@@ -1087,7 +1088,7 @@ sfig1 <- ggplot(
                disc.benefits = disc.lbl,
                with_SB = SB.lbl
              )) +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -1143,7 +1144,7 @@ sfig2 <- ggplot(
   ) +
   scale_y_continuous(trans=ggallin::ssqrt_trans,breaks=(c(-0.5,0,0.5,2,5,10,20)*10^9),
     labels = scales::label_number_si()) +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -1184,7 +1185,7 @@ sfig3 <- ggplot(
                with_SB = SB.lbl
              )) +
   scale_x_continuous(trans="log10") +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -1225,7 +1226,7 @@ sfig4 <- ggplot(
     labeller = labeller(norm_scen = norm.lbl, .rows = label_wrap_gen(width = 11))
   ) +
   scale_x_continuous(trans="log10") +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -1272,7 +1273,7 @@ sfig5 <- ggplot(
     # scales = "free",
     labeller = labeller(norm_scen = norm.lbl) 
   ) +
-  scale_color_brewer(palette="Set1",
+  scale_color_viridis_d(end=0.9,
     name="SDG Region",
     labels = reg.lbl
   ) +
@@ -1331,7 +1332,7 @@ if (reg_type=="wb") {
       # scales = "free",
       labeller = labeller(norm_scen = norm.lbl) 
     ) +
-    scale_color_brewer(palette="Set1",
+    scale_color_viridis_d(end=0.9,
       name="WB Income Group",
       labels = reg.lbl
     ) +
@@ -1378,7 +1379,7 @@ if (reg_type=="wb") {
       reorder(scen_name, scen_id)~norm_scen,
       labeller = labeller(norm_scen = norm.lbl, .rows = label_wrap_gen(width = 11))
     ) +
-   scale_color_brewer(palette="Set1",
+   scale_color_viridis_d(end=0.9,
       name="WB Income Group",
       labels = reg.lbl
     ) +
